@@ -1,15 +1,16 @@
-let name = "Name: Aajad kumar prajapat";
-school = "     School: Anuvart Public School";
-grade = "Grade: A";
-section = "      Section: B";
-roll = "      Roll No.: 2562664";
-console.log(name, school)
-console.log(grade, section, roll)
-let a = "Subject Name         Marks";
-b = "  Physics              96";
-c = "  chemistry            85";
-d = "  Mathematics          90";
-console.log(a);
-console.log(b);
-console.log(c);
-console.log(d);
+let data_username="kapil15@gmail.com"
+let data_userpassword="abc@1234"
+
+let a="kapil15@gmail.com";
+let b="abc@1234"
+if(data_username==a){
+  if(data_userpassword==b){
+    console.log("Login Successfully")
+  }else{
+    console.log("Wrong Passwords")
+  }
+}else{
+  console.log("Please check the username")
+    
+  
+}

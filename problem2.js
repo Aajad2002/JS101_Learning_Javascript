@@ -1,4 +1,6 @@
-let name="Aajad kumar prajapat";
- age=20;
-console.log(name,age)
-console.log(typeof name,typeof age)
+let a=20;
+if (a>=18){
+  console.log("Apply for a license")
+}else{
+  console.log("NA")
+}
